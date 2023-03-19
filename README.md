@@ -23,6 +23,8 @@ using rotation-equivariant transformations on point clouds](https://arxiv.org/ab
 
 This document contains instructions on how to use the EDN architecture for general training and inference. In addition, we provide specific instructions on how to train and evaluate a network using protein model datasets from CASP 5-14.
 
+EDN builds on [tensor field networks](https://arxiv.org/abs/1802.08219) and the [PAUL network for protein complexes](https://onlinelibrary.wiley.com/doi/10.1002/prot.26033).
+
 ## Installation 
 
 ### Create a conda environment
