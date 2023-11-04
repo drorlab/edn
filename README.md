@@ -18,10 +18,10 @@
 
 ## Overview
 
-This repository provides a PyTorch implementation of the EDN architecture from [Protein model quality assessment
-using rotation-equivariant transformations on point clouds](https://arxiv.org/abs/2011.13557). EDN is an equivariant neural network designed to predict the accuracy of a protein model. We tested EDN as part of the blind prediction experiment on model quality assessment in CASP 14 (https://predictioncenter.org/casp14/index.cgi). 
+This repository provides a PyTorch implementation of the EDN architecture presented in "Protein model quality assessment
+using rotation-equivariant transformations on point clouds" ([Proteins](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26494),[arXiv](https://arxiv.org/abs/2011.13557)). EDN is an equivariant neural network designed to predict the accuracy of a protein model. We tested EDN as part of the blind prediction experiment on model quality assessment in CASP 14 (https://predictioncenter.org/casp14/index.cgi). 
 
-This document contains instructions on how to use the EDN architecture for general training and inference. In addition, we provide specific instructions on how to train and evaluate a network using protein model datasets from CASP 5-14.
+This document contains instructions on how to use the EDN architecture for general training and inference. In addition, we provide specific instructions on how to train and evaluate a network using protein model datasets from CASP 5-14. The EDN model that we used for the blind structure prediction as part of CASP14 was built with TensorFlow and is available as a [webserver](http://drorlab.stanford.edu/edn.html).
 
 EDN builds on [tensor field networks](https://arxiv.org/abs/1802.08219) and the [PAUL network for protein complexes](https://onlinelibrary.wiley.com/doi/10.1002/prot.26033).
 
